@@ -108,6 +108,12 @@ public class MessagingPreferenceActivity extends PreferenceActivity
     // Blacklist
     public static final String BLACKLIST                 = "pref_blacklist";
 
+    // Enter key action
+    public static final String ENTER_ACTION              = "pref_key_mms_enter_action";
+    public static final String ENTER_ACTION_VALUE        = "pref_key_mms_enter_action_value";
+    public static final int ENTER_DEFAULT                = 0;
+    public static final int ENTER_NEW_LINE               = 1;
+
     // Menu entries
     private static final int MENU_RESTORE_DEFAULTS    = 1;
 
